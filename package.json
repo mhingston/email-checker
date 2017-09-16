@@ -1,0 +1,17 @@
+{
+  "name": "email-checker",
+  "version": "1.0.0",
+  "description": "Check emails for typos, verify syntax and whether the domain has an MX record",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Miles Hingston <miles@bitshift.cc>",
+  "license": "MIT",
+  "dependencies": {
+    "dnscache": "^1.0.1",
+    "mailcheck": "^1.1.1",
+    "validator": "^8.2.0"
+  }
+}
