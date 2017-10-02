@@ -18,7 +18,7 @@ Returns: Promise
 * rejected {Object} Error object
 
 ```javascript	
-EmailChecker.mxCheck({email: 'me@domain.com', op	tions: {});
+EmailChecker.mxCheck({email: 'me@domain.com', options: {});
 ```
 
 You can also optionally pass in a [options object](https://github.com/yahoo/dnscache#configuration).
