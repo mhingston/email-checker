@@ -2,7 +2,7 @@ const dnscache = require('dnscache');
 const Mailcheck  = require('mailcheck');
 const validator = require('validator');
 
-const EmailCheckerer =
+const EmailChecker =
 {
     mxCheck: ({email, options}) =>
     {
@@ -42,4 +42,4 @@ const EmailCheckerer =
     }
 }
 
-module.exports = EmailCheckerer;
+module.exports = EmailChecker;
